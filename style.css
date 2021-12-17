@@ -1,0 +1,165 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: rgb(23, 226, 226);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+sup {
+    font-size:70%;
+    padding-bottom: 5px;
+    padding-left: 1px;
+}
+
+.button-enter {
+    width:85px;
+    height: 25px;
+    box-shadow: 2px 2px 2px black;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-large {
+    width:40px;
+    height: 30px;
+    box-shadow: 2px 2px 2px black;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-small {
+    width:32px;
+    height: 25px;
+    box-shadow: 2px 2px 2px black;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.calc-row {
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.calculator {
+    width: 300px;
+    height: 550px;
+    background-color: darkslategrey;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+    box-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.display-row {
+    background-color: silver;
+    height: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.display-screen {
+    background-color:lightseagreen;
+    height: 80px;
+    width: 270px;
+    border: 5px solid black;
+    flex:2;
+}
+
+.display-spacer {
+    flex:1;
+}
+
+.display-text {
+    color:black;
+    width:260px;
+    height: 30px;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 25px;
+    width: 115px;
+    font-size: 11px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo-box {
+    flex: 2;
+    background-color: silver;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-circle {
+    background-color: darkslategrey;
+    color: silver;
+    border-radius: 100px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    padding-left: 0px;
+    padding-bottom: 4px;
+    font-style: italic;
+}
+
+.logo-text {
+    flex: 4;
+    color: silver;
+    letter-spacing: 2px;
+    padding-left: 4px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
