@@ -96,10 +96,16 @@ sup {
 
 .display-screen {
     background-color:lightseagreen;
-    height: 80px;
-    width: 270px;
+    height: 40px;
+    width: 240px;
     border: 5px solid black;
     flex:2;
+
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size:xx-large;
+    color:darkslategray;
 }
 
 .display-spacer {
