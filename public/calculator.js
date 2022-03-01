@@ -45,6 +45,25 @@ let flip = () => {
     }
 }
 
+let negative = () => {
+    if(!submitted) {
+        refresh(display * -1);
+    } else {
+        let x = stack.pop();
+        stack.push(x * -1);
+        refresh(x * -1);
+    }
+}
+
+let backspace = () => {
+    if(!submitted) {
+        refresh((display - (display % 10)) / 10);
+    } else {
+        stack.push(0);
+        refresh(0);
+    }
+}
+
 let add = () => {
     if(!submitted) {
         stack.push(display);
@@ -104,3 +123,14 @@ let divide = () => {
         refresh(y/x);
     }
 }
+
+let clearDisplay = () => {
+    if(!submitted) {
+        submitted = true;
+        refresh(0);
+    } else {
+        stack.push(0);
+        refresh(0);
+    }
+}
+

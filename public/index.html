@@ -46,9 +46,9 @@
             <div class="calc-row">
                 <div class="button-enter" onclick="enter()">ENTER</div>
                 <div class="button-small" onclick="flip()">x↔y</div>
-                <div class="button-small">+/-</div>
+                <div class="button-small" onclick="negative()">+/-</div>
                 <div class="button-small">E</div>
-                <div class="button-small">←</div>
+                <div class="button-small" onclick="backspace()">←</div>
             </div>
             <div class="calc-row">
                 <div class="button-small">XEQ</div>
@@ -72,7 +72,7 @@
                 <div class="button-large" onclick="subtract()">-</div>
             </div>
             <div class="calc-row">
-                <div class="button-small">C</div>
+                <div class="button-small" onclick="clearDisplay ()">C</div>
                 <div class="button-large" onclick="typeNumber(0)">0</div>
                 <div class="button-large">.</div>
                 <div class="button-large">R/S</div>
